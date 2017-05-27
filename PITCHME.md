@@ -1,5 +1,3 @@
-#HSLIDE
-
 ### Learning gitpitch
 
 * Read the [devco
@@ -7,14 +5,16 @@
 * Visit [the gitpitch Homepage](www.gitpitch.com) and view the slideshow
 * Ignore all the marketing talk and get <a href="https://github.com/gitpitch/gitpitch/wiki" target="_blank">the real documentation</a>
 
-#HSLIDE
+---
 
 ### Start with a simple Slide
 
 * `mkdir ~/repos/learning-gitpitch && cd ~/repos/learning-gitpitch && git init &&
   vim PITCHME.md`
 
-```
+---
+
+```Markdown
 #HSLIDE
 
 ### Learning gitpitch
@@ -25,7 +25,11 @@
 * Ignore all the marketing talk and get <a href="https://github.com/gitpitch/gitpitch/wiki" target="_blank">the real documentation</a>
 ```
 
+---
+
 * `git add PITCHME.md && git commit -m'First steps documentation with gitpitch'
   && git remote add origin https://github.com/Arabus/learning-gitpitch.git &&
   git push --set-upstream origin master`
+* Visit the [gitpitch repo slide
+  site](https://gitpitch.com/arabus/learning-gitpitch/master)
 
