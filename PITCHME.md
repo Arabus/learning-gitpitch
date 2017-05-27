@@ -38,4 +38,5 @@ git push --set-upstream origin master
 ```
 
 * Visit the [gitpitch repo slide
-  site](https://gitpitch.com/arabus/learning-gitpitch/master)
+  site](https://gitpitch.com/arabus/learning-gitpitch/master) at
+  `https://gitpitch.com/$user/$repo/$branch`
